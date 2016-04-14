@@ -11,7 +11,7 @@ namespace MayaMayaFrontEnd.Helpers
         /// <summary>
         /// dit is private voor gemak anders werd het Currentuser.user.firstname ofzo :P
         /// </summary>
-        private static UserModel user
+        private static UserModel User
         {
             get
             {
@@ -23,35 +23,35 @@ namespace MayaMayaFrontEnd.Helpers
         /// </summary>
         public static string Username
         {
-            get { return user.Username; }
+            get { return User.Username; }
         }
         /// <summary>
         /// geeft je de voornaam van de huidige gebruikerhjn   
         /// </summary>
         public static string Firstname
         {
-            get { return user.Firstname; }
+            get { return User.Firstname; }
         }
         /// <summary>
         /// geeft je de achternaam van de huidige gebruiker
         /// </summary>
         public static string Lastname
         {
-            get { return user.Lastname; }
+            get { return User.Lastname; }
         }
         /// <summary>
         /// geeft je de laatste login datum van de huidige gebruiker
         /// </summary>
         public static DateTime LastLogin
         {
-            get { return user.LastLogin; }
+            get { return User.LastLogin; }
         }
         /// <summary>
         /// geeft je de rollen van de huidige gebruiker
         /// </summary>
         public static List<string> Roles
         {
-            get { return user.Roles; }
+            get { return User.Roles; }
         }
         /// <summary>
         /// geeft je de id van de huidige gebruiker
