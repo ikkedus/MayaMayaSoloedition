@@ -26,7 +26,7 @@ namespace MayaMayaFrontEnd.Helpers
             get { return user.Username; }
         }
         /// <summary>
-        /// geeft je de voornaam van de huidige gebruiker
+        /// geeft je de voornaam van de huidige gebruikerhjn   
         /// </summary>
         public static string Firstname
         {
